@@ -3,6 +3,7 @@ require 'rubygems'
 require 'eventmachine'
 require 'em-rocketio-linda-client'
 require 'base64'
+$stdout.sync = true
 
 rec_cmd = "/usr/bin/rec"
 rec_file = "/tmp/rec-play.mp3"

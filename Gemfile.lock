@@ -1,0 +1,50 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.5)
+    cookiejar (0.3.0)
+    em-cometio-client (0.1.1)
+      em-http-request
+      event_emitter (>= 0.2.0)
+      eventmachine
+      json
+    em-http-request (1.1.0)
+      addressable (>= 2.3.4)
+      cookiejar
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0.beta.2)
+    em-rocketio-client (0.1.1)
+      em-cometio-client
+      em-http-request
+      em-websocketio-client
+      event_emitter
+      eventmachine
+    em-rocketio-linda-client (0.0.3)
+      em-rocketio-client
+      event_emitter
+      eventmachine
+    em-socksify (0.3.0)
+      eventmachine (>= 1.0.0.beta.4)
+    em-websocket-client (0.1.1)
+      eventmachine
+      libwebsocket
+    em-websocketio-client (0.0.2)
+      em-websocket-client
+      event_emitter
+      eventmachine
+      json
+    event_emitter (0.2.5)
+    eventmachine (1.0.3)
+    http_parser.rb (0.6.0.beta.2)
+    json (1.8.0)
+    libwebsocket (0.1.8)
+      addressable
+      websocket
+    websocket (1.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  em-rocketio-linda-client
